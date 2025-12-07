@@ -8,11 +8,11 @@ function showDashboard(projectId) {
 
 function openRepo(projectId) {
     const repos = {
-        project1: 'https://github.com/onwuratobe/project1',
-        project2: 'https://github.com/onwuratobe/project2',
-        project3: 'https://github.com/onwuratobe/project3',
-        project4: 'https://github.com/onwuratobe/project4',
-        project5: 'https://github.com/onwuratobe/project5',
+        dataproject1: 'https://github.com/onwuratobe/dataproject1',
+        dataproject2: 'https://github.com/onwuratobe/dataproject2',
+        dataproject3: 'https://github.com/onwuratobe/dataproject3',
+        dataproject4: 'https://github.com/onwuratobe/dataproject4',
+        dataproject5: 'https://github.com/onwuratobe/dataproject5',
     };
     const repoUrl = repos[projectId];
     if (repoUrl) {
