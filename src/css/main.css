@@ -95,3 +95,69 @@ button {
     max-width: 100%;
     border-radius: 4px;
 }
+
+
+
+
+
+/* profile div styling */
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+}
+
+.bio h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.8em;
+}
+
+.bio p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+
+
+/* certificate carousel styling */
+.carousel {
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+  margin: 40px auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  width: 300%; /* adjust based on number of images */
+  animation: slide 9s infinite;
+}
+
+.slides img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
